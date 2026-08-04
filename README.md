@@ -1,8 +1,21 @@
 # satellite-imagery-retrieval
+## Dataset
+
+The dataset used in this project is the following:
+
+```bibtex
+@InProceedings{DeepGlobe18,
+ author = {Demir, Ilke and Koperski, Krzysztof and Lindenbaum, David and Pang, Guan and Huang, Jing and Basu, Saikat and Hughes, Forest and Tuia, Devis and Raskar, Ramesh},
+ title = {DeepGlobe 2018: A Challenge to Parse the Earth Through Satellite Images},
+ booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+ month = {June},
+ year = {2018}
+}
+```
 
 
 ## Image retrieval
-The image retrieval component was implemented following an unsupervised approach to retrieve, given an input satellite image, a list of the most similar images present in the training dataset. The system was built to search those images that contained istances of the classes present and a similar environment with respect to the input image.
+The image retrieval task was implemented following an unsupervised approach to retrieve, given an input satellite image, a list of the most similar images present in the training dataset. The system was built to search those images that contained istances of the classes present and a similar environment with respect to the input image.
 The retreiaval component of my project is composed by two parts: in the frist part I built a convolutional autoencoder and I trained it on the whole training dataset to extract feature maps of all its images. This Convolutional Auntoencoder is composed by a combination of Convolutional Layers, SELU and Sigmoid activation functions.
 
 ![](images/retrieval_architecture_1.jpg)
