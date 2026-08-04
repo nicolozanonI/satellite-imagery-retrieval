@@ -23,17 +23,26 @@ The Nearest Neighbour algorithm was used to retrieve the first k=50 similar imag
 ### Forest
 
 Input image:
+![](images/forest.jpg)
 
 Retrieved images:
+![](images/forest_retrieval.jpg)
+
 
 ### Rural:
 
 Input image:
+![](images/rural.jpg)
 
 Retrieved images:
+![](images/rural_retrieval.jpg)
+
 
 ### Desert:
 
 Input image:
+![](images/desert.jpg)
 
 Retrieved images:
+![](images/desert_retrieval.jpg)
+
