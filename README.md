@@ -16,4 +16,24 @@ During test, I used the same encoder to extract the feature map of a test image,
 Finally, images were ordered using the value of the computed KL divergence, and I took the first n<k images with the most similar histograms to the input’s ones as the output of the retrrieval component. 
 
 The Convolutoional Autoencoder was trained for 20 epoches on the whole dataset using Adam optimizer and Mean Squared Loss function. The final MSELoss value was 0.0037.
-The Nearest Neighbour algorithm was used to retrieve the first k=50 similar images to the input, using cosine similarity to compare feature maps. Then I computed distance between color histograms using KL divergence, obtaining a ranking based on similarity between the k histograms and the input’s histograms. I took the first n=12 images from this ranked list. The histogram comparison has been added to improve the overoll result of the retrieval, exploiting the fact the usually similar environments are charaterized by similar color distributions. In my tests, I were able to succesfully perform satellite imagery retrieval using as input images with different types of environment, such as coltivarted fields, urban areas or range land.
+The Nearest Neighbour algorithm was used to retrieve the first k=50 similar images to the input, using cosine similarity to compare feature maps. Then I computed distance between color histograms using KL divergence, obtaining a ranking based on similarity between the k histograms and the input’s histograms. I took the first n=12 images from this ranked list. The histogram comparison has been added to improve the overoll result of the retrieval, exploiting the fact the usually similar environments are charaterized by similar color distributions. In my tests, I were able to succesfully perform satellite imagery retrieval using as input images with different types of environment, such as cultivarted fields, urban areas or range land.
+
+## Test
+
+### Forest
+
+Input image:
+
+Retrieved images:
+
+### Rural:
+
+Input image:
+
+Retrieved images:
+
+### Desert:
+
+Input image:
+
+Retrieved images:
