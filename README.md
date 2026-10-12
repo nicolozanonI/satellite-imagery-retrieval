@@ -1,7 +1,7 @@
 # satellite-imagery-retrieval
 
 ## Introduction
-This work is part of a larger project, described in satellite_imagery_risk_estimation.pdf
+This work is part of a larger project, described in `satellite_imagery_risk_assestment.pdf`.
 
 ## Dataset
 
